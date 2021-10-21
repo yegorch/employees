@@ -5,9 +5,9 @@ import './employees-list.css';
 const EmployeesList = () => {
     return (
         <ul className="app-list list-group">
-            <EmployeesListItem/>
-            <EmployeesListItem/>
-            <EmployeesListItem/>
+            <EmployeesListItem name="Yegor" salary={1200}/>
+            <EmployeesListItem name="Yegor" salary={1200}/>
+            <EmployeesListItem name="Yegor" salary={1200}/>
         </ul>
     )
 }
